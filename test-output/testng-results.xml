@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-06T14:40:30 IST" name="Default suite" finished-at="2024-11-06T14:41:10 IST" duration-ms="39939">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitTest.submitOrder(java.util.HashMap)[pri:0, instance:department.tests.SubmitTest@302c971f]" name="submitOrder" class="department.tests.SubmitTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-11-06T14:40:30 IST" name="Default test" finished-at="2024-11-06T14:41:10 IST" duration-ms="39939">
+      <class name="department.tests.SubmitTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:department.tests.SubmitTest@302c971f]" started-at="2024-11-06T14:40:30 IST" name="LaunchApplication" finished-at="2024-11-06T14:40:34 IST" duration-ms="4142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:department.tests.SubmitTest@302c971f]" started-at="2024-11-06T14:40:34 IST" name="submitOrder" data-provider="getdata" finished-at="2024-11-06T14:40:50 IST" duration-ms="15083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test@1234, email=prasanth@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="endOperation()[pri:0, instance:department.tests.SubmitTest@302c971f]" started-at="2024-11-06T14:40:50 IST" name="endOperation" finished-at="2024-11-06T14:40:50 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOperation -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:department.tests.SubmitTest@302c971f]" started-at="2024-11-06T14:40:50 IST" name="LaunchApplication" finished-at="2024-11-06T14:40:51 IST" duration-ms="1703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:department.tests.SubmitTest@302c971f]" started-at="2024-11-06T14:40:51 IST" name="submitOrder" data-provider="getdata" finished-at="2024-11-06T14:41:07 IST" duration-ms="15760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test@123456, email=prasanthb@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="endOperation()[pri:0, instance:department.tests.SubmitTest@302c971f]" started-at="2024-11-06T14:41:07 IST" name="endOperation" finished-at="2024-11-06T14:41:07 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOperation -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:department.tests.SubmitTest@302c971f]" started-at="2024-11-06T14:41:07 IST" name="LaunchApplication" finished-at="2024-11-06T14:41:09 IST" duration-ms="1748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:department.tests.SubmitTest@302c971f]" started-at="2024-11-06T14:41:09 IST" name="orderHistoryTest" finished-at="2024-11-06T14:41:10 IST" depends-on-methods="department.tests.SubmitTest.submitOrder" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="endOperation()[pri:0, instance:department.tests.SubmitTest@302c971f]" started-at="2024-11-06T14:41:10 IST" name="endOperation" finished-at="2024-11-06T14:41:10 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOperation -->
+      </class> <!-- department.tests.SubmitTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
